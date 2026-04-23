@@ -166,7 +166,7 @@ export const translations = {
       titleAfter: 'problemas reales.',
       intro:
         'Trabajo con empresas que necesitan sistemas que funcionen, no demos que impresionen a nadie.',
-      customTitle: '¿Necesitás algo que no está en esta lista?',
+      customTitle: '¿Necesitas algo que no está en esta lista?',
       customBody: 'Si tu problema es específico, te diseño la solución exacta.',
       customCta: 'Cuéntame tu caso →',
       customMessage: 'Hola Fernando, tengo un proyecto específico que quiero comentarte.',
@@ -362,7 +362,7 @@ export const translations = {
         'integration-existing-integration': {
           title: 'Integración a medida sin romper lo que funciona',
           description:
-            'Conecto tu sistema actual con lo que necesitás, sin migrar ni reemplazar. La solución más segura y rentable.',
+            'Conecto tu sistema actual con lo que necesitas, sin migrar ni reemplazar. La solución más segura y rentable.',
           ctaLabel: 'Describir mi sistema actual',
         },
         'ecommerce-defined-speed': {
