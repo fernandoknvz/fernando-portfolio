@@ -7,9 +7,9 @@ export const siteConfig = {
   name: "Fernando Olguea",
   title: "Full Stack Developer",
   subtitle: "Arquitecto de Soluciones",
-  tagline: "No hago páginas simples.\nConstruyo sistemas que transforman negocios.",
+  tagline: "No realizo páginas simples.\nConstruyo sistemas que transforman negocios.",
   description:
-    "Especialista en arquitectura de software, automatización y soluciones a medida para empresas que necesitan resultados reales. APIs, ecommerce, POS, integraciones — todo con criterio estratégico.",
+    "Especialista en arquitectura de software, automatización y soluciones a medida para empresas que necesitan resultados. APIs, ecommerce, POS, integraciones — todo con criterio estratégico.",
 
   // ---- Contact & Social ----
   whatsapp: {

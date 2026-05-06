@@ -18,10 +18,10 @@ export const translations = {
       closeMenuLabel: 'Cerrar menú',
     },
     hero: {
-      role: 'Full Stack Developer · Solutions Architect',
+      role: 'Full Stack Developer · Analista Programador Computacional',
       name: 'Fernando',
       surname: 'Olguea',
-      taglineLine1: 'No hago páginas simples.',
+      taglineLine1: 'No realizo páginas simples.',
       taglineLine2: 'Construyo sistemas que transforman negocios.',
       stats: [
         { value: '2+', label: 'Años de experiencia' },
@@ -40,12 +40,12 @@ export const translations = {
       titleAccent: 'mueve',
       titleAfter: 'negocios.',
       intro:
-        'Soy Full Stack Developer y Arquitecto de Soluciones con más de 2 años construyendo sistemas para empresas reales. Me especializo en proyectos que tienen impacto directo en el negocio: automatización, ecommerce, integraciones y sistemas operativos a medida.',
+        'Soy Full Stack Developer y Analista Programador Computacional con más de 2 años construyendo sistemas para empresas. Me especializo en proyectos que tienen impacto directo en el negocio: automatización, ecommerce, integraciones y sistemas operativos a medida.',
       body:
-        'No trabajo como freelancer genérico. Entro en cada proyecto como un socio tecnológico: entiendo el contexto, propongo la arquitectura correcta y entrego algo que funciona en producción el día 1. Sin re-trabajo. Sin sorpresas.',
+        'Con la experiencia en TeHagoLaWeb SpA, no trabajo como freelancer genérico. Entro en cada proyecto como un socio tecnológico: entiendo el contexto, propongo la arquitectura correcta y entrego algo que funciona en producción el día 1. Sin re-trabajo. Sin sorpresas.',
       principles: [
         {
-          label: 'Soluciones, no features',
+          label: 'Soluciones Integrales',
           desc: 'Entiendo el problema de negocio antes de escribir código.',
         },
         {
