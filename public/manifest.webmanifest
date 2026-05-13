@@ -1,0 +1,19 @@
+{
+  "name": "Fernando Olguea Dev - Portafolio",
+  "short_name": "Fernando Olguea",
+  "description": "Portafolio profesional de Fernando Olguea, desarrollador Full Stack en formación y estudiante de Ingeniería Informática con mención en Ciencia de Datos.",
+  "lang": "es-CL",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

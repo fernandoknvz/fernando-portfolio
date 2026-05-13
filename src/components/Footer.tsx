@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Logo + tagline */}
           <div className="flex flex-col gap-2">
             <span className="font-display font-800 text-xl text-foreground">
-              <span className="text-crimson">F</span>O<span className="text-subtle">.</span>
+              <span className="text-crimson">Fernando</span> Olguea<span className="text-subtle">.</span>
             </span>
             <span className="text-subtle text-xs font-body max-w-xs">
               {t.footer.role}

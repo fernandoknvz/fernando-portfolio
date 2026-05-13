@@ -18,11 +18,11 @@ export const translations = {
       closeMenuLabel: 'Cerrar menú',
     },
     hero: {
-      role: 'Full Stack Developer · Analista Programador Computacional',
+      role: 'Desarrollador Full Stack en formación · Ingeniería Informática + Ciencia de Datos',
       name: 'Fernando',
       surname: 'Olguea',
       taglineLine1: 'No realizo páginas simples.',
-      taglineLine2: 'Construyo sistemas que transforman negocios.',
+      taglineLine2: 'Construyo sistemas web, e-commerce y automatizaciones aplicadas a problemas reales.',
       stats: [
         { value: '2+', label: 'Años de experiencia' },
         { value: '10+', label: 'Proyectos entregados' },
@@ -40,9 +40,9 @@ export const translations = {
       titleAccent: 'mueve',
       titleAfter: 'negocios.',
       intro:
-        'Soy Full Stack Developer y Analista Programador Computacional con más de 2 años construyendo sistemas para empresas. Me especializo en proyectos que tienen impacto directo en el negocio: automatización, ecommerce, integraciones y sistemas operativos a medida.',
+        'Soy desarrollador Full Stack en formación y estudiante de Ingeniería Informática con mención en Ciencia de Datos en Santiago, Chile. He trabajado en proyectos reales de desarrollo web, automatización, e-commerce, bases de datos y sistemas a medida para negocios.',
       body:
-        'Con la experiencia en TeHagoLaWeb SpA, no trabajo como freelancer genérico. Entro en cada proyecto como un socio tecnológico: entiendo el contexto, propongo la arquitectura correcta y entrego algo que funciona en producción el día 1. Sin re-trabajo. Sin sorpresas.',
+        'He desarrollado soluciones tecnológicas y proyectos reales a través de TeHagoLaWeb como parte de mi experiencia práctica. Mi foco es entender el problema, ordenar el alcance y construir software útil, mantenible y conectado con la operación real.',
       principles: [
         {
           label: 'Soluciones Integrales',
@@ -165,7 +165,7 @@ export const translations = {
       titleAccent: 'resuelven',
       titleAfter: 'problemas reales.',
       intro:
-        'Trabajo con empresas que necesitan sistemas que funcionen, no demos que impresionen a nadie.',
+        'Trabajo con proyectos donde puedo aplicar desarrollo web, backend, frontend, bases de datos, e-commerce y automatización de procesos con criterio práctico.',
       customTitle: '¿Necesitas algo que no está en esta lista?',
       customBody: 'Si tu problema es específico, te diseño la solución exacta.',
       customCta: 'Cuéntame tu caso →',
@@ -174,8 +174,8 @@ export const translations = {
         fullstack: {
           title: 'Desarrollo Full Stack',
           description:
-            'Aplicaciones web completas, desde la base de datos hasta la interfaz. Arquitectura sólida, código limpio y escalable desde el primer día.',
-          tags: ['React', 'Node.js', 'TypeScript', 'PostgreSQL'],
+            'Aplicaciones web completas, desde la base de datos hasta la interfaz. Experiencia práctica creando soluciones mantenibles con frontend, backend y lógica de negocio.',
+          tags: ['React', 'Django', 'Python', 'MySQL'],
         },
         apis: {
           title: 'APIs & Integraciones',
@@ -184,22 +184,22 @@ export const translations = {
           tags: ['REST', 'Webhooks', 'OAuth', 'Microservicios'],
         },
         ecommerce: {
-          title: 'Ecommerce & POS',
+          title: 'E-commerce y sistemas de venta',
           description:
             'Plataformas de venta online y sistemas de punto de venta a medida. Gestión de inventario, pagos y reportes en tiempo real.',
-          tags: ['WooCommerce', 'Stripe', 'POS', 'Inventario'],
+          tags: ['E-commerce', 'Ventas', 'Inventario', 'MySQL'],
         },
         automation: {
           title: 'Automatización',
           description:
             'Elimino tareas repetitivas y errores humanos. Flujos automáticos, notificaciones, sincronización de datos y pipelines de información.',
-          tags: ['n8n', 'Zapier', 'Cron', 'Pipelines'],
+          tags: ['Python', 'Excel', 'Procesos', 'APIs'],
         },
         architecture: {
-          title: 'Arquitectura de Soluciones',
+          title: 'Diseño de sistemas',
           description:
-            'Diseño sistemas pensando en el futuro. Escalabilidad, mantenibilidad y bajo costo operativo a largo plazo.',
-          tags: ['Cloud', 'Docker', 'CI/CD', 'Infraestructura'],
+            'Diseño estructuras simples y mantenibles para que un sistema pueda crecer sin volverse difícil de operar.',
+          tags: ['Django', 'REST', 'Docker', 'Deploy'],
         },
         custom: {
           title: 'Soluciones a Medida',
@@ -264,37 +264,37 @@ export const translations = {
     stack: {
       eyebrow: 'Stack tecnológico',
       titleBefore: 'Herramientas que',
-      titleAccent: 'domino',
-      titleAfter: 'en producción.',
+      titleAccent: 'aplico',
+      titleAfter: 'en proyectos reales y formación.',
       levels: {
-        expert: 'Experto',
-        proficient: 'Avanzado',
-        working: 'Conocimiento',
+        expert: 'Experiencia práctica',
+        proficient: 'He trabajado con',
+        working: 'Actualmente aprendiendo',
       },
       categories: [
         {
           category: 'Frontend',
-          items: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js'],
+          items: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Responsive Design'],
         },
         {
           category: 'Backend',
-          items: ['Node.js', 'Express', 'NestJS', 'Python', 'GraphQL'],
+          items: ['Python', 'Django', 'Django REST Framework', 'Node.js básico/intermedio', 'APIs REST'],
         },
         {
           category: 'Bases de datos',
-          items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Supabase'],
+          items: ['MySQL', 'SQL', 'Modelado relacional', 'Consultas', 'Datos operacionales'],
         },
         {
-          category: 'DevOps & Cloud',
-          items: ['Docker', 'GitHub Actions', 'AWS', 'Netlify / Vercel', 'Linux / VPS'],
+          category: 'DevOps / despliegue',
+          items: ['Git', 'GitHub', 'Docker', 'Portainer', 'Netlify', 'Render', 'Railway', 'Nginx básico', 'Cloudflare básico/intermedio'],
         },
         {
-          category: 'Integraciones',
-          items: ['Stripe / MP', 'WhatsApp API', 'n8n / Zapier', 'REST APIs', 'Webhooks'],
+          category: 'Data Science / aprendizaje',
+          items: ['Python para datos', 'Pandas', 'NumPy', 'Machine Learning', 'Deep Learning', 'Notebooks', 'Análisis de datos', 'Árboles de decisión', 'Métricas de clasificación'],
         },
         {
-          category: 'Ecommerce',
-          items: ['WooCommerce', 'Shopify', 'POS custom', 'Inventario', 'Facturación'],
+          category: 'Herramientas / negocio',
+          items: ['Excel avanzado', 'Automatización de procesos', 'Sistemas de inventario', 'Sistemas de ventas', 'E-commerce', 'Integración de sistemas'],
         },
       ],
     },
@@ -384,7 +384,7 @@ export const translations = {
       titleBefore: '30 minutos que pueden',
       titleAccent: 'cambiar tu proyecto',
       intro:
-        'Una consultoría breve y gratuita para entender tu proyecto y decirte exactamente qué necesitas.',
+        'Una consultoría tecnológica breve y gratuita para entender tu proyecto, revisar alcance y decirte exactamente qué necesitas para avanzar.',
       calendlyCta: 'Agendar consultoría gratuita',
       whatsappAlt: 'O escribir por WhatsApp',
       successTitle: '¡Solicitud recibida!',
@@ -438,7 +438,7 @@ export const translations = {
       },
     },
     footer: {
-      role: 'Full Stack Developer · Arquitecto de Soluciones',
+      role: 'Desarrollador Full Stack en formación · Ciencia de Datos',
       copyright: 'Todos los derechos reservados.',
       builtWith: 'Construido con React · Vite · TypeScript · Tailwind',
     },
@@ -474,11 +474,11 @@ export const translations = {
       closeMenuLabel: 'Close menu',
     },
     hero: {
-      role: 'Full Stack Developer · Solutions Architect',
+      role: 'Full Stack developer in training · Computer Engineering + Data Science',
       name: 'Fernando',
       surname: 'Olguea',
       taglineLine1: "I don't build simple pages.",
-      taglineLine2: 'I build systems that transform businesses.',
+      taglineLine2: 'I build web systems, ecommerce and automations applied to real problems.',
       stats: [
         { value: '2+', label: 'Years of experience' },
         { value: '10+', label: 'Projects delivered' },
@@ -496,9 +496,9 @@ export const translations = {
       titleAccent: 'moves',
       titleAfter: 'business.',
       intro:
-        'I am a Full Stack Developer and Solutions Architect with 2+ years building systems for real companies. I specialize in projects with direct business impact: automation, ecommerce, integrations, and custom operational systems.',
+        'I am a Full Stack developer in training and Computer Engineering student focused on Data Science in Santiago, Chile. I have worked on real projects involving web development, automation, ecommerce, databases and custom systems for businesses.',
       body:
-        'I do not work like a generic freelancer. I join each project as a technology partner: I understand the context, propose the right architecture, and deliver something production-ready on day one. No rework. No surprises.',
+        'I have developed technology solutions and real projects through TeHagoLaWeb as part of my practical experience. My focus is understanding the problem, organizing scope and building useful, maintainable software connected to real operations.',
       principles: [
         {
           label: 'Solutions, not features',
@@ -620,7 +620,7 @@ export const translations = {
       titleBefore: 'Solutions that',
       titleAccent: 'solve',
       titleAfter: 'real problems.',
-      intro: 'I work with companies that need systems that work, not demos that impress no one.',
+      intro: 'I work on projects where I can apply web development, backend, frontend, databases, ecommerce and process automation with practical judgment.',
       customTitle: 'Need something that is not on this list?',
       customBody: 'If your problem is specific, I design the exact solution.',
       customCta: 'Tell me your case →',
@@ -629,8 +629,8 @@ export const translations = {
         fullstack: {
           title: 'Full Stack Development',
           description:
-            'Complete web applications, from database to interface. Solid architecture, clean code, and scalable foundations from day one.',
-          tags: ['React', 'Node.js', 'TypeScript', 'PostgreSQL'],
+            'Complete web applications, from database to interface. Practical experience building maintainable solutions with frontend, backend and business logic.',
+          tags: ['React', 'Django', 'Python', 'MySQL'],
         },
         apis: {
           title: 'APIs & Integrations',
@@ -639,22 +639,22 @@ export const translations = {
           tags: ['REST', 'Webhooks', 'OAuth', 'Microservices'],
         },
         ecommerce: {
-          title: 'Ecommerce & POS',
+          title: 'Ecommerce and sales systems',
           description:
             'Custom online sales platforms and point-of-sale systems. Inventory management, payments, and real-time reporting.',
-          tags: ['WooCommerce', 'Stripe', 'POS', 'Inventory'],
+          tags: ['Ecommerce', 'Sales', 'Inventory', 'MySQL'],
         },
         automation: {
           title: 'Automation',
           description:
             'I remove repetitive tasks and human error. Automated flows, notifications, data sync, and information pipelines.',
-          tags: ['n8n', 'Zapier', 'Cron', 'Pipelines'],
+          tags: ['Python', 'Excel', 'Processes', 'APIs'],
         },
         architecture: {
-          title: 'Solutions Architecture',
+          title: 'System design',
           description:
-            'I design systems with the future in mind: scalability, maintainability, and low long-term operating cost.',
-          tags: ['Cloud', 'Docker', 'CI/CD', 'Infrastructure'],
+            'I design simple, maintainable structures so a system can grow without becoming difficult to operate.',
+          tags: ['Django', 'REST', 'Docker', 'Deploy'],
         },
         custom: {
           title: 'Custom Solutions',
@@ -719,37 +719,37 @@ export const translations = {
     stack: {
       eyebrow: 'Technology stack',
       titleBefore: 'Tools I',
-      titleAccent: 'master',
-      titleAfter: 'in production.',
+      titleAccent: 'apply',
+      titleAfter: 'in real projects and training.',
       levels: {
-        expert: 'Expert',
-        proficient: 'Advanced',
-        working: 'Working knowledge',
+        expert: 'Practical experience',
+        proficient: 'Worked with',
+        working: 'Currently learning',
       },
       categories: [
         {
           category: 'Frontend',
-          items: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js'],
+          items: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'Responsive Design'],
         },
         {
           category: 'Backend',
-          items: ['Node.js', 'Express', 'NestJS', 'Python', 'GraphQL'],
+          items: ['Python', 'Django', 'Django REST Framework', 'Node.js basic/intermediate', 'REST APIs'],
         },
         {
           category: 'Databases',
-          items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Supabase'],
+          items: ['MySQL', 'SQL', 'Relational modeling', 'Queries', 'Operational data'],
         },
         {
-          category: 'DevOps & Cloud',
-          items: ['Docker', 'GitHub Actions', 'AWS', 'Netlify / Vercel', 'Linux / VPS'],
+          category: 'DevOps / deployment',
+          items: ['Git', 'GitHub', 'Docker', 'Portainer', 'Netlify', 'Render', 'Railway', 'Basic Nginx', 'Basic/intermediate Cloudflare'],
         },
         {
-          category: 'Integrations',
-          items: ['Stripe / MP', 'WhatsApp API', 'n8n / Zapier', 'REST APIs', 'Webhooks'],
+          category: 'Data Science / learning',
+          items: ['Python for data', 'Pandas', 'NumPy', 'Machine Learning', 'Deep Learning', 'Notebooks', 'Data analysis', 'Decision trees', 'Classification metrics'],
         },
         {
-          category: 'Ecommerce',
-          items: ['WooCommerce', 'Shopify', 'Custom POS', 'Inventory', 'Invoicing'],
+          category: 'Tools / business',
+          items: ['Advanced Excel', 'Process automation', 'Inventory systems', 'Sales systems', 'Ecommerce', 'System integration'],
         },
       ],
     },
@@ -839,7 +839,7 @@ export const translations = {
       titleBefore: '30 minutes that can',
       titleAccent: 'change your project',
       intro:
-        'A short, free consultation to understand your project and tell you exactly what you need.',
+        'A short, free technology consultation to understand your project, review scope and tell you exactly what you need to move forward.',
       calendlyCta: 'Schedule free consultation',
       whatsappAlt: 'Or message on WhatsApp',
       successTitle: 'Request received!',
@@ -893,7 +893,7 @@ export const translations = {
       },
     },
     footer: {
-      role: 'Full Stack Developer · Solutions Architect',
+      role: 'Full Stack developer in training · Data Science',
       copyright: 'All rights reserved.',
       builtWith: 'Built with React · Vite · TypeScript · Tailwind',
     },

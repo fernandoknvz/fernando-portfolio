@@ -39,8 +39,9 @@ export default function Navbar() {
         <button
           onClick={() => scrollToSection('hero')}
           className="font-display font-800 text-lg tracking-tight text-foreground hover:text-crimson transition-colors"
+          aria-label="Ir al inicio del portafolio de Fernando Olguea"
         >
-          <span className="text-crimson">F</span>O<span className="text-subtle">.</span>
+          <span className="text-crimson">Fernando</span> Olguea<span className="text-subtle">.</span>
         </button>
 
         {/* Desktop links */}
@@ -79,6 +80,8 @@ export default function Navbar() {
             className="text-muted hover:text-foreground transition-colors"
             onClick={() => setOpen(!open)}
             aria-label={open ? t.nav.closeMenuLabel : t.nav.menuLabel}
+            aria-expanded={open}
+            aria-controls="mobile-navigation"
           >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -87,7 +90,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-navbar/98 backdrop-blur-md border-t border-border/[0.08]">
+        <div id="mobile-navigation" className="md:hidden bg-navbar/98 backdrop-blur-md border-t border-border/[0.08]">
           <ul className="section-container flex flex-col py-6 gap-1">
             {navLinks.map((link) => (
               <li key={link.id}>

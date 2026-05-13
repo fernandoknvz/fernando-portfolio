@@ -138,6 +138,10 @@ export default function Hero() {
                 <img
                   src="/profile.jpg"
                   alt={t.hero.imageAlt}
+                  width="420"
+                  height="520"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover object-top grayscale-[15%]"
                   style={{ filter: 'contrast(1.05) brightness(0.95)' }}
                 />
