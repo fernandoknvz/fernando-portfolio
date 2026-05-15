@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.tehagolaweb.cl/sitemap.xml
+Sitemap: https://fernandoolgueadev.cl/sitemap.xml
